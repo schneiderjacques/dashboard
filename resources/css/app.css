@@ -1,3 +1,110 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+    font-family: Inter;
+    src: url('/font/Inter-Thin.ttf');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: Inter;
+    src: url('/font/ExtraLight.ttf');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: Inter;
+    src: url('/font/Inter-Light.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: Inter;
+    src: url('/font/Inter-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: Inter;
+    src: url('/font/Inter-Medium.ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: Inter;
+    src: url('/font/Inter-SemiBold.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: Inter;
+    src: url('/font/Inter-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: Inter;
+    src: url('/font/Inter-ExtraBold.ttf');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: Inter;
+    src: url('/font/Inter-Black.ttf');
+    font-weight: 900;
+    font-style: normal;
+}
+*{
+    font-family: Inter, sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    line-height: 1.5;
+    font-weight: 600;
+}
+h1 {
+    font-size: 32px;
+}
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+h3 {
+    font-size: 19px;
+}
+h4{
+    font-size: 16px;
+}
+h5{
+    font-size: 13px;
+}
+h6{
+    font-size: 11px;
+}
+.subtitle-1{
+    font-size: 1rem; line-height: 1.75rem; font-weight: 400;
+}
+.subtitle-2{
+    font-size: 0.875rem; line-height: 1.375rem; font-weight: 500;
+}
+.body-1{
+    font-size: 1rem; line-height: 1.5rem; font-weight: 400;
+}
+body-2 {
+
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+}
+caption{
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+}
+OVERLINE {
+    font-size: 0.75rem;
+    line-height: 2rem;
+    font-weight: 500;
+}
