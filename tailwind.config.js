@@ -13,6 +13,7 @@ module.exports = {
         colors: {
             'primary-background': '#f4f5fa;',
             'primary-color': 'rgba(94,86,105,.87)',
+            'subtitle-color': 'rgba(94,86,105,.68)'
         },
         spacing: {
             '100': '28rem',
