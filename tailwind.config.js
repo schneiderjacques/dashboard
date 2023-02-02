@@ -13,12 +13,17 @@ module.exports = {
         colors: {
             'primary-background': '#f4f5fa;',
             'primary-color': 'rgba(94,86,105,.87)',
-            'subtitle-color': 'rgba(94,86,105,.68)'
+            'anchor-base': '#9155fd;',
+            'subtitle-color': 'rgba(94,86,105,.68)',
+            'primary-base': '#9155fd',
         },
         spacing: {
             '100': '28rem',
         }
     },
   },
-  plugins: [],
+  plugins: [
+      //...
+      require('@tailwindcss/forms'),
+  ],
 }
