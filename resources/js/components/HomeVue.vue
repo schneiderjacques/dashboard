@@ -4,7 +4,13 @@
 
 <script>
 export default {
-    name: "HomeVue"
+    name: "HomeVue",
+    mounted(){
+        axios.get('/user').then((response) => {
+            console.log(response);
+        })
+
+    }
 }
 </script>
 

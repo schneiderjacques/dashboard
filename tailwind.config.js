@@ -16,6 +16,8 @@ module.exports = {
             'anchor-base': '#9155fd;',
             'subtitle-color': 'rgba(94,86,105,.68)',
             'primary-base': '#9155fd',
+            'theme-primary': 'rgb(145,85,253)',
+            'theme-on-surface': 'rgb(58,53,65)',
         },
         spacing: {
             '100': '28rem',
