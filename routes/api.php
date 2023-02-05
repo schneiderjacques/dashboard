@@ -15,8 +15,7 @@ use App\Http\Controllers\UserController;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-Route::get('/dashboard', [AuthController::class, 'dashboard'])
-    ->middleware('auth:sanctum');
+
 Route::post('/login', [AuthController::class, 'authenticate']);
 
 
@@ -26,7 +25,8 @@ Route::group(['middleware' => ['auth:sanctum']], function() {
     Route::get('/authenticated', function () {
         return true;
     });
-    Route::get('user', [UserController::class, 'user']);
+    Route::get('/dashboard', [AuthController::class, 'dashboard']);
+    Route::get('/user', [UserController::class, 'user']);
 
 
 

@@ -135,6 +135,7 @@
 </template>
 <script>
 import store from "../store/index";
+import setAuthHeaders from "@/utils/setAuthHeaders";
 export default {
     name: "ConnexionVue",
     data() {
@@ -154,10 +155,17 @@ export default {
             axios.post('api/login', {
                 email: this.email.trim(),
                 password: this.password
-            }).then((response) => {
-                localStorage.setItem('token', response.data.token);
-                this.$router.push('/');
-            }).catch();
+            })
+                .then((response) => {
+                    return new Promise((resolve) => {
+                        localStorage.setItem('token', response.data.token);
+                        setAuthHeaders(response.data.token);
+                        resolve();
+                    });
+                })
+                .then(() => {
+                    this.$router.push({name: 'home'});
+                });
         }
     }
 }
