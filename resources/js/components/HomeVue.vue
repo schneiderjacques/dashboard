@@ -11,24 +11,21 @@ import HeaderVue from "@/components/HeaderVue.vue";
 export default {
     name: "HomeVue",
     components: {
-      SideBarVue,
-        HeaderVue
+        SideBarVue,
+        HeaderVue,
     },
-    mounted(){
+    mounted() {
         /*axios.get('/user').then((response) => {
             console.log(response);
         })*/
-
     },
     methods: {
-        deco(){
-            localStorage.removeItem('token')
+        deco() {
+            localStorage.removeItem("token");
             this.$router.go();
-        }
-    }
-}
+        },
+    },
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
