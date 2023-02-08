@@ -1,6 +1,6 @@
 <template>
     <div
-        class="h-screen top-0 transform translate-x-0 w-[260px] max-h-full bg-[#f4f5fa] fixed"
+        class="h-[calc(100%+0px)] fixed top-0 bottom-0 transform translate-x-0 w-[260px] max-h-full bg-[#f4f5fa]  overflow-y-auto overflow-x-hidden"
     >
         <router-link
             to="/"
@@ -405,7 +405,7 @@
             </router-link>
         </div>
         <a
-            class="absolute bottom-[13px] left-1/2 transform -translate-x-1/2 max-w-[230px] w-[560px] cursor-pointer"
+            class="reltaive top-[13px] bottom-[13px] left-1/2 transform -translate-x-1/2 max-w-[230px] w-[560px] cursor-pointer"
         >
             <img src="../../../public/connexion/banner-light.png" />
         </a>
