@@ -1,8 +1,5 @@
 <template>
-    <div class="flex">
-        <SideBarVue></SideBarVue>
-        <HeaderVue></HeaderVue>
-    </div>
+    <p class="">Bienvenue</p>
 </template>
 
 <script>
@@ -18,6 +15,7 @@ export default {
         /*axios.get('/user').then((response) => {
             console.log(response);
         })*/
+        //this.deco();
     },
     methods: {
         deco() {

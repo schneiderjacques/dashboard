@@ -13,6 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/{any}', function () {
-    return view('app');
-})->where("any", ".*");
+/*
+ * Web routes protected by sanctum
+ *
+ * */
+
+
+Route::get('/account-settings', function () {
+    return view('account-settings');
+});

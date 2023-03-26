@@ -1,6 +1,6 @@
 <template>
     <div
-        class="h-[calc(100%+0px)] fixed top-0 bottom-0 transform translate-x-0 w-[260px] max-h-full bg-[#f4f5fa]  overflow-y-auto overflow-x-hidden"
+        class="h-[calc(100%+0px)] fixed top-0 bottom-0 transform translate-x-0 w-[260px] max-h-full bg-[#f4f5fa] overflow-y-auto overflow-x-hidden"
     >
         <router-link
             to="/"
@@ -49,7 +49,7 @@
             </router-link>
 
             <router-link
-                to="/"
+                to="/account-settings"
                 class="flex items-center outline-none px-[16px] cursor-pointer text-primary-color caret-white h-[44px] mt-[0.375rem] min-h-[44px] pl-[22px] rounded-r-[32px] hover:bg-primary-color-opac"
             >
                 <div

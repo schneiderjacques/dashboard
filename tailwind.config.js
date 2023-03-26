@@ -19,6 +19,8 @@ module.exports = {
                 "primary-color-opac": "rgba(94,86,105,.04)",
                 "anchor-base": "#9155fd;",
                 "subtitle-color": "rgba(94,86,105,.68)",
+                "icon-color": "rgba(94,86,105,.76)",
+                "primary-error": "#ff4c51",
                 "primary-base": "#9155fd",
                 "theme-primary": "rgb(145,85,253)",
                 "theme-on-surface": "rgb(58,53,65)",
